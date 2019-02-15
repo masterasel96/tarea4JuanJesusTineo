@@ -14,5 +14,16 @@ public class Coche {
     private String marca;
     private String matricula;
     private int potenciaMotor;
+
+    public Coche(String marca, String matricula, int potenciaMotor) {
+        this.marca = marca;
+        this.matricula = matricula;
+        this.potenciaMotor = potenciaMotor;
+    }
+
+    public Coche() {
+    }
+    
+    
     
 }

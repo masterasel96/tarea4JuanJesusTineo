@@ -23,6 +23,30 @@ public class Coche {
 
     public Coche() {
     }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
+    }
+
+    public int getPotenciaMotor() {
+        return potenciaMotor;
+    }
+
+    public void setPotenciaMotor(int potenciaMotor) {
+        this.potenciaMotor = potenciaMotor;
+    }
     
     
     

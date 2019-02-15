@@ -47,6 +47,11 @@ public class Coche {
     public void setPotenciaMotor(int potenciaMotor) {
         this.potenciaMotor = potenciaMotor;
     }
+
+    @Override
+    public String toString() {
+        return "Coche{" + "marca=" + marca + ", matricula=" + matricula + ", potenciaMotor=" + potenciaMotor + '}';
+    }
     
     
     
